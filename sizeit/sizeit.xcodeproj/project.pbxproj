@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D1C31C6021BA86B500571831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C31C5F21BA86B500571831 /* AppDelegate.swift */; };
-		D1C31C6221BA86B500571831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C31C6121BA86B500571831 /* ViewController.swift */; };
+		D1C31C6221BA86B500571831 /* LayoutGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C31C6121BA86B500571831 /* LayoutGuideViewController.swift */; };
 		D1C31C6521BA86B500571831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C31C6321BA86B500571831 /* Main.storyboard */; };
 		D1C31C6721BA86B600571831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C31C6621BA86B600571831 /* Assets.xcassets */; };
 		D1C31C6A21BA86B600571831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C31C6821BA86B600571831 /* LaunchScreen.storyboard */; };
 		D1C31C7221BA94B700571831 /* MeasurementsOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C31C7121BA94B700571831 /* MeasurementsOverlayView.swift */; };
+		D1E1205321BEC4AA008F9511 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1205221BEC4AA008F9511 /* TabBarController.swift */; };
+		D1E1205A21BECA4D008F9511 /* DynamicTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1205921BECA4D008F9511 /* DynamicTypeViewController.swift */; };
+		D1E1205C21BECA5F008F9511 /* TraitCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1205B21BECA5F008F9511 /* TraitCollectionViewController.swift */; };
+		D1E1205F21BEFC24008F9511 /* TraitCollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1205E21BEFC24008F9511 /* TraitCollectionHeaderCell.swift */; };
+		D1E1206121BEFE2E008F9511 /* FriendlyNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1206021BEFE2E008F9511 /* FriendlyNames.swift */; };
+		D1E1206321BEFFC3008F9511 /* TraitCollectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1206221BEFFC3008F9511 /* TraitCollectionItemCell.swift */; };
+		D1E1206521BF0ECE008F9511 /* DynamicTypeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1206421BF0ECE008F9511 /* DynamicTypeItemCell.swift */; };
+		D1E1206721BF102E008F9511 /* DynamicTypeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1206621BF102E008F9511 /* DynamicTypeHeaderCell.swift */; };
+		D1E1206921BF10F4008F9511 /* DynamicTypeTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1206821BF10F4008F9511 /* DynamicTypeTextCell.swift */; };
 		D1FA31D721BDA81C001DAEEC /* MeasureDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FA31D621BDA81C001DAEEC /* MeasureDisplayView.swift */; };
 		D1FA31DB21BDD473001DAEEC /* MeasuringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FA31DA21BDD473001DAEEC /* MeasuringView.swift */; };
 /* End PBXBuildFile section */
@@ -20,12 +29,21 @@
 /* Begin PBXFileReference section */
 		D1C31C5C21BA86B500571831 /* sizeit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sizeit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C31C5F21BA86B500571831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1C31C6121BA86B500571831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1C31C6121BA86B500571831 /* LayoutGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuideViewController.swift; sourceTree = "<group>"; };
 		D1C31C6421BA86B500571831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1C31C6621BA86B600571831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1C31C6921BA86B600571831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1C31C6B21BA86B600571831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1C31C7121BA94B700571831 /* MeasurementsOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsOverlayView.swift; sourceTree = "<group>"; };
+		D1E1205221BEC4AA008F9511 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D1E1205921BECA4D008F9511 /* DynamicTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeViewController.swift; sourceTree = "<group>"; };
+		D1E1205B21BECA5F008F9511 /* TraitCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitCollectionViewController.swift; sourceTree = "<group>"; };
+		D1E1205E21BEFC24008F9511 /* TraitCollectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitCollectionHeaderCell.swift; sourceTree = "<group>"; };
+		D1E1206021BEFE2E008F9511 /* FriendlyNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyNames.swift; sourceTree = "<group>"; };
+		D1E1206221BEFFC3008F9511 /* TraitCollectionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraitCollectionItemCell.swift; sourceTree = "<group>"; };
+		D1E1206421BF0ECE008F9511 /* DynamicTypeItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeItemCell.swift; sourceTree = "<group>"; };
+		D1E1206621BF102E008F9511 /* DynamicTypeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeHeaderCell.swift; sourceTree = "<group>"; };
+		D1E1206821BF10F4008F9511 /* DynamicTypeTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeTextCell.swift; sourceTree = "<group>"; };
 		D1FA31D621BDA81C001DAEEC /* MeasureDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureDisplayView.swift; sourceTree = "<group>"; };
 		D1FA31DA21BDD473001DAEEC /* MeasuringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,17 +78,74 @@
 		D1C31C5E21BA86B500571831 /* sizeit */ = {
 			isa = PBXGroup;
 			children = (
+				D1E1205D21BEF78C008F9511 /* Extensions */,
+				D1E1205521BECA09008F9511 /* Tabs */,
+				D1E1205421BEC9E1008F9511 /* Views */,
 				D1C31C5F21BA86B500571831 /* AppDelegate.swift */,
-				D1C31C6121BA86B500571831 /* ViewController.swift */,
 				D1C31C6321BA86B500571831 /* Main.storyboard */,
 				D1C31C6621BA86B600571831 /* Assets.xcassets */,
 				D1C31C6821BA86B600571831 /* LaunchScreen.storyboard */,
 				D1C31C6B21BA86B600571831 /* Info.plist */,
+				D1E1205221BEC4AA008F9511 /* TabBarController.swift */,
+			);
+			path = sizeit;
+			sourceTree = "<group>";
+		};
+		D1E1205421BEC9E1008F9511 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				D1C31C7121BA94B700571831 /* MeasurementsOverlayView.swift */,
 				D1FA31D621BDA81C001DAEEC /* MeasureDisplayView.swift */,
 				D1FA31DA21BDD473001DAEEC /* MeasuringView.swift */,
 			);
-			path = sizeit;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1E1205521BECA09008F9511 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1205821BECA24008F9511 /* TraitCollection */,
+				D1E1205721BECA1A008F9511 /* DynamicType */,
+				D1E1205621BECA0E008F9511 /* LayoutGuides */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		D1E1205621BECA0E008F9511 /* LayoutGuides */ = {
+			isa = PBXGroup;
+			children = (
+				D1C31C6121BA86B500571831 /* LayoutGuideViewController.swift */,
+			);
+			path = LayoutGuides;
+			sourceTree = "<group>";
+		};
+		D1E1205721BECA1A008F9511 /* DynamicType */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1205921BECA4D008F9511 /* DynamicTypeViewController.swift */,
+				D1E1206621BF102E008F9511 /* DynamicTypeHeaderCell.swift */,
+				D1E1206421BF0ECE008F9511 /* DynamicTypeItemCell.swift */,
+				D1E1206821BF10F4008F9511 /* DynamicTypeTextCell.swift */,
+			);
+			path = DynamicType;
+			sourceTree = "<group>";
+		};
+		D1E1205821BECA24008F9511 /* TraitCollection */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1205B21BECA5F008F9511 /* TraitCollectionViewController.swift */,
+				D1E1205E21BEFC24008F9511 /* TraitCollectionHeaderCell.swift */,
+				D1E1206221BEFFC3008F9511 /* TraitCollectionItemCell.swift */,
+			);
+			path = TraitCollection;
+			sourceTree = "<group>";
+		};
+		D1E1205D21BEF78C008F9511 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1206021BEFE2E008F9511 /* FriendlyNames.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +219,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C31C6221BA86B500571831 /* ViewController.swift in Sources */,
+				D1C31C6221BA86B500571831 /* LayoutGuideViewController.swift in Sources */,
+				D1E1206121BEFE2E008F9511 /* FriendlyNames.swift in Sources */,
+				D1E1206321BEFFC3008F9511 /* TraitCollectionItemCell.swift in Sources */,
 				D1FA31D721BDA81C001DAEEC /* MeasureDisplayView.swift in Sources */,
 				D1FA31DB21BDD473001DAEEC /* MeasuringView.swift in Sources */,
+				D1E1205A21BECA4D008F9511 /* DynamicTypeViewController.swift in Sources */,
+				D1E1206521BF0ECE008F9511 /* DynamicTypeItemCell.swift in Sources */,
+				D1E1206721BF102E008F9511 /* DynamicTypeHeaderCell.swift in Sources */,
+				D1E1205321BEC4AA008F9511 /* TabBarController.swift in Sources */,
+				D1E1205F21BEFC24008F9511 /* TraitCollectionHeaderCell.swift in Sources */,
+				D1E1206921BF10F4008F9511 /* DynamicTypeTextCell.swift in Sources */,
+				D1E1205C21BECA5F008F9511 /* TraitCollectionViewController.swift in Sources */,
 				D1C31C7221BA94B700571831 /* MeasurementsOverlayView.swift in Sources */,
 				D1C31C6021BA86B500571831 /* AppDelegate.swift in Sources */,
 			);
