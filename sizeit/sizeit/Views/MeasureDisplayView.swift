@@ -156,7 +156,9 @@ class MeasureDisplayView: UIView {
                               width: textSize.width, height: textSize.height)
         }
 
-        nsText.draw(in: textRect, withAttributes: attributes)
+        let slightlyBiggerTextRect = CGRect(origin: textRect.origin, size: CGSize(width: textRect.width + 5, height: textRect.height))
+        
+        nsText.draw(in: slightlyBiggerTextRect, withAttributes: attributes)
 
         if textRect.minX > 8 && projectedRect.width - textRect.maxX > 8 {
             arrowColor?.set()
