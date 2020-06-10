@@ -46,7 +46,7 @@ class MeasurementsOverlayView: UIView {
         addLayoutMarginViews()
 
         subviews.compactMap({ $0 as? MeasureDisplayView }).forEach {
-            $0.arrowColor = UIColor(named: "AccentColor ")
+            $0.arrowColor = UIColor(named: "AccentColor")
             $0.textColor = UIColor(named: "AccentColor")
         }
     }
