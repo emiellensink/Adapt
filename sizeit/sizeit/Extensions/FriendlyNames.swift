@@ -37,6 +37,7 @@ extension UIUserInterfaceIdiom {
         case .pad: return "pad (iPad)"
         case .phone: return "phone (iPhone)"
         case .tv: return "tv (Apple TV)"
+        case .mac: return "Mac"
         case .unspecified: return "unspecified"
         default: return "unknown"
         }
