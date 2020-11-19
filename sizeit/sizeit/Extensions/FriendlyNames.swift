@@ -24,6 +24,8 @@ extension UIDisplayGamut {
         case .P3: return "Display P3"
         case .SRGB: return "sRGB"
         case .unspecified: return "unspecified"
+        @unknown default:
+            return "unknown"
         }
     }
 }
@@ -36,6 +38,7 @@ extension UIUserInterfaceIdiom {
         case .phone: return "phone (iPhone)"
         case .tv: return "tv (Apple TV)"
         case .unspecified: return "unspecified"
+        default: return "unknown"
         }
     }
 }
@@ -46,6 +49,8 @@ extension UIForceTouchCapability {
         case .available: return "available"
         case .unavailable: return "not available"
         case .unknown: return "unknown"
+        @unknown default:
+            return "unknown"
         }
     }
 }
@@ -56,6 +61,8 @@ extension UITraitEnvironmentLayoutDirection {
         case .leftToRight: return "left to right"
         case .rightToLeft: return "right to left"
         case .unspecified: return "unspecified"
+        @unknown default:
+            return "unknown"
         }
     }
 }

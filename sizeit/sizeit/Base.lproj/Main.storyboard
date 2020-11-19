@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j1o-iz-JRs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j1o-iz-JRs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -53,7 +53,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="compact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c74-QT-pI0">
-                                <rect key="frame" x="47" y="294" width="67.5" height="21"/>
+                                <rect key="frame" x="47" y="294" width="67" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <color key="textColor" name="TextBlackish"/>
                                 <nil key="highlightedColor"/>
@@ -82,6 +82,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="aU7-If-bty"/>
                         <color key="backgroundColor" name="BackgroundGray"/>
                         <constraints>
                             <constraint firstItem="aU7-If-bty" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="c74-QT-pI0" secondAttribute="trailing" id="9ST-TA-5n5"/>
@@ -104,7 +105,6 @@
                             <constraint firstItem="chK-uV-bge" firstAttribute="leading" secondItem="5X1-2B-eOd" secondAttribute="leadingMargin" id="tCV-SI-uxf"/>
                             <constraint firstItem="chK-uV-bge" firstAttribute="top" secondItem="aU7-If-bty" secondAttribute="top" constant="16" id="uTR-3r-QRe"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="aU7-If-bty"/>
                     </view>
                     <navigationItem key="navigationItem" title="Layout Guides" id="TFn-LA-hLJ"/>
                     <connections>
@@ -195,7 +195,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPI-fg-LnT">
-                                                    <rect key="frame" x="44" y="38.5" width="97" height="20.5"/>
+                                                    <rect key="frame" x="44" y="38.5" width="96.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <color key="textColor" name="TextBlackish"/>
                                                     <nil key="highlightedColor"/>
@@ -224,6 +224,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="HOd-xT-Jqo"/>
                         <color key="backgroundColor" name="BackgroundGray"/>
                         <constraints>
                             <constraint firstItem="HOd-xT-Jqo" firstAttribute="trailing" secondItem="0wY-Li-I7O" secondAttribute="trailing" id="16H-Wd-e3e"/>
@@ -231,7 +232,6 @@
                             <constraint firstItem="HOd-xT-Jqo" firstAttribute="bottom" secondItem="0wY-Li-I7O" secondAttribute="bottom" id="Ihu-XT-kCI"/>
                             <constraint firstItem="0wY-Li-I7O" firstAttribute="leading" secondItem="HOd-xT-Jqo" secondAttribute="leading" id="mk7-fD-xma"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="HOd-xT-Jqo"/>
                     </view>
                     <navigationItem key="navigationItem" title="Trait Collection" id="Ja0-XT-6ZS"/>
                     <connections>
@@ -351,7 +351,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item content" textAlignment="natural" lineBreakMode="middleTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmr-t7-s67">
-                                                    <rect key="frame" x="36" y="16" width="97" height="20.5"/>
+                                                    <rect key="frame" x="36" y="16" width="96.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <color key="textColor" name="TextBlackish"/>
                                                     <nil key="highlightedColor"/>
@@ -377,6 +377,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dax-6g-Pz6"/>
                         <color key="backgroundColor" name="BackgroundGray"/>
                         <constraints>
                             <constraint firstItem="Dax-6g-Pz6" firstAttribute="trailing" secondItem="EFf-QS-UQC" secondAttribute="trailing" id="F3l-VR-hLZ"/>
@@ -384,7 +385,6 @@
                             <constraint firstItem="Dax-6g-Pz6" firstAttribute="bottom" secondItem="EFf-QS-UQC" secondAttribute="bottom" id="sPg-Rf-9It"/>
                             <constraint firstItem="EFf-QS-UQC" firstAttribute="top" secondItem="Dax-6g-Pz6" secondAttribute="top" id="v4V-hM-YzS"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Dax-6g-Pz6"/>
                     </view>
                     <navigationItem key="navigationItem" title="Dynamic Type" id="2pt-OV-F5W"/>
                     <connections>
